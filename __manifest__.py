@@ -3,7 +3,7 @@
     'description': 'Library books, members and book borrowing.',
     'author': 'Fernando',
     'depends': ['base'],
-    'license': 'LGPL',
+    'license': 'LGPL-3',
     'data': [
         'security/library_security.xml',
         'security/ir.model.access.csv',
