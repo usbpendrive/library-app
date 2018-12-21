@@ -12,10 +12,27 @@
                 <sheet>
                     <group>
                         <field name="name" />
+                        <field name="category_id" />
                         <field name="author_ids" widget="many2many_tags" />
                         <field name="publisher_id" />
-                        <field name="date_published" />
+                        <field name="publisher_country_id" />
+                        <field name="publisher_country_related" />
+                        <separator string="Text fields" />
                         <field name="isbn" />
+                        <field name="book_type" />
+                        <field name="notes" />
+                        <field name="descr" />
+                    </group>
+                    <group>
+                        <separator string="Numeric fields" />
+                        <field name="copies" />
+                        <field name="avg_rating" />
+                        <field name="price" />
+                        <field name="currency_id" />
+                        <separator string="Date and time fields" />
+                        <field name="date_published" />
+                        <field name="last_borrow_date" />
+                        <separator string="Other fields" />
                         <field name="active" />
                         <field name="image" widget="image" />
                     </group>
